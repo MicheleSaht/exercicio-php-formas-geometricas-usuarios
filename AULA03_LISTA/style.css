@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Montserrat:wght@100&family=Poppins:wght@100&display=swap');
 * {
-    /* padding: 0; */
     margin: 0;
     font-family: arial;
 }
 
 header {
     background-color: #3558e3;
+    justify-content: space-between;
 }
 
 nav {
+    display: flex;
+    align-items: center;
     position: fixed;
     top: 0;
     left: 0;
@@ -19,16 +21,27 @@ nav {
 }
 
 nav ul {
+    justify-content: space-between;
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
 nav ul li a {
-    justify-content: center;
     align-items: center;
     text-decoration: none;
     color: #fff;
+}
+
+.card4 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 90px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
 }
 
 
@@ -83,4 +96,8 @@ footer {
     position: absolute;
     width: 100%;
     /* bottom: 0; */
+}
+
+svg {
+    width: 40px;
 }
