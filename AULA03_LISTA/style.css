@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Montserrat:wght@100&family=Poppins:wght@100&display=swap');
+* {
+    /* padding: 0; */
+    margin: 0;
+    font-family: arial;
+}
+
+header {
+    background-color: #3558e3;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #7A86B8;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* Estilo para os links (âncoras) quando o mouse passa sobre eles */
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 1rem
+}
+
+h3 {
+    color: #7A86B8;
+    cursor: pointer;
+}
+
+h3:hover {
+    font-size: 20px;
+    transition: 1s;
+}
+
+.logo {
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+MAIN {
+    margin: 60px;
+    background-color: #f5f5f5;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+table {
+    background-color: #7A86B8;
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+footer {
+    background-color: #7A86B8;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+    /* bottom: 0; */
+}
