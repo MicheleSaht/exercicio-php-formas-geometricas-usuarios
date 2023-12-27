@@ -64,7 +64,6 @@ Neste exercício, modelamos e construímos as classes de um sistema de locadora 
 
 Este é um projeto de exercícios em PHP com o objetivo de praticar conceitos de programação orientada a objetos e cálculo de áreas de formas geométricas. Sinta-se à vontade para explorar o código-fonte e os exemplos fornecidos.
 
-![image](https://github.com/MicheleSaht/exercicio-php-formas-geometricas-usuarios/assets/78928188/a3a8e353-9cde-4436-8323-a1d3fe8395f3)
 
 
 
